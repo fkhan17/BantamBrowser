@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="clear_browser_data"
+        android:title="Clear Browser Data"
+        android:summary="Clear cache, history, and cookies" />
+    <SwitchPreferenceCompat
+        android:key="javascript_enabled"
+        android:title="Enable JavaScript"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:key="homepage"
+        android:title="Set Homepage"
+        android:summary="Set your preferred homepage"
+        android:defaultValue="https://www.example.com"/>
+</PreferenceScreen>
